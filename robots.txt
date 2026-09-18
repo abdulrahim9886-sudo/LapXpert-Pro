@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://abdulrahim9886-sudo.github.io/LapXpert-Pro/sitemap.xml
