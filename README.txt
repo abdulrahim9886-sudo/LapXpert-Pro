@@ -1,20 +1,16 @@
-LapXpert Pro final prototype
-============================
-Theme: white + sky blue + navy glowing borders.
-Included:
-- Responsive customer website
-- Laptop repair services
-- Monitor sales
-- CPU/Desktop sales
-- Sell Your Device
-- Repair booking to WhatsApp
-- Call/WhatsApp/Google Maps links
-- Mobile menu and fixed mobile CTA bar
-- Demo repair tracking
-- Admin Add Product page for Monitor and CPU/Desktop
-- Privacy, Terms, Warranty pages
-- robots.txt and sitemap.xml
+LapXpert Pro Final Website
 
-IMPORTANT FOR PRODUCTION:
-The admin page currently uses browser localStorage, so it is a prototype only.
-A real public admin system requires authentication, server/database, secure image upload, server-side enquiry handling, and deployment configuration.
+Upload all files to the GitHub Pages repository root.
+Main files: index.html, styles.css, script.js, logo.png.
+
+Design:
+- Light blue/white UI with light-blue glow borders
+- Responsive desktop and mobile layout
+- Main cards: Buy Laptops, Sell Your Laptop, Laptop Repair, Laptop & CPU Upgrade
+- Small cards: Monitors, CPU/Desktop, Adapters & Chargers
+- Click-through flows with WhatsApp requests
+- Address: Benson Town, Bangalore 560046
+- Phone: 9845885250
+- No SK Garden
+
+Note: Product photography uses real hosted image assets. Apple MacBook/iMac imagery points to Apple-hosted product assets; other product imagery uses real photography hosted by Unsplash.
