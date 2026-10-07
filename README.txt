@@ -1,16 +1,23 @@
-LapXpert Pro Final Website
+LAPXPERT PRO PYTHON REBUILD
+============================
 
-Upload all files to the GitHub Pages repository root.
-Main files: index.html, styles.css, script.js, logo.png.
+This package is rebuilt as a clean static website with:
+- Exact local logo asset
+- All website images stored locally under assets/
+- No external image URLs
+- No broken image dependency
+- Responsive desktop + mobile layout
+- Expanded exact-model lists without a series step
+- Apple A2485 included
+- Other / Enter Model Manually option
+- Laptop Repair, Buy, Sell, Upgrade, Apple, Adapter flows
+- WhatsApp number: 9845885250
+- Location: Benson Town, Bangalore 560046
 
-Design:
-- Light blue/white UI with light-blue glow borders
-- Responsive desktop and mobile layout
-- Main cards: Buy Laptops, Sell Your Laptop, Laptop Repair, Laptop & CPU Upgrade
-- Small cards: Monitors, CPU/Desktop, Adapters & Chargers
-- Click-through flows with WhatsApp requests
-- Address: Benson Town, Bangalore 560046
-- Phone: 9845885250
-- No SK Garden
+Upload every file/folder in this ZIP to the ROOT of your GitHub Pages repository.
+Keep the 'assets' folder exactly as-is.
 
-Note: Product photography uses real hosted image assets. Apple MacBook imagery points to Apple-hosted product assets; other product imagery uses real photography hosted by Unsplash.
+IMPORTANT:
+Do not rename files.
+Do not upload only index.html.
+Upload the entire ZIP contents.

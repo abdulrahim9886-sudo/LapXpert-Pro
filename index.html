@@ -1,10 +1,106 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>LapXpert Pro | Laptop Services Bangalore</title><meta name="description" content="LapXpert Pro laptop repair, buy, sell and upgrade services in Bangalore."><link rel="stylesheet" href="styles.css"></head><body>
-<header class="header"><img src="assets/logo.png" class="logo"><nav><a>Home</a><a> Laptops</a><a>MacBook</a><a>Monitors</a><a>Desktop / CPU</a><a>Adapters</a><a>Repair</a><a>Contact</a></nav><div class="loc">📍 Benson Town<br>Bangalore 560046</div><a class="wa top" href="https://wa.me/919845885250">◉ 9845885250</a></header>
-<main>
-<section class="hero"><div class="hero-copy"><h1>Buy • Sell • Repair<br>Laptops &amp; <span>MacBooks</span></h1><p>Refurbished Laptops&nbsp; | &nbsp;Apple MacBook<br>Repairs&nbsp; | &nbsp;Upgrades&nbsp; | &nbsp;Accessories</p><div class="badges"><b>🚚 <strong>PAN INDIA</strong><small>Delivery by DTDC</small></b><b>⌂ <strong>Home Service</strong><small>in Bangalore</small></b><b>♢ <strong>Quality Checked</strong><small>Refurbished Products</small></b></div></div><div class="hero-products"><img src="assets/hero-products.jpg"></div><div class="service-panel"><h2>🛠️ Book a Service</h2><label>1. Select Brand <em>*</em></label><select id="brand"><option> Apple</option><option>Dell</option><option>HP</option><option>Lenovo</option><option>ASUS</option><option>Acer</option></select><label>2. Select Model <em>*</em></label><input id="model" placeholder="Search model (e.g. A2141)"><div class="model-list" id="modelList"></div><button class="other" onclick="manualModel()">Other Model (Enter Manually)</button></div></section>
-<section class="brands"><img src="assets/brand-row.jpg"></section>
-<section class="cards maincards"><article><img src="assets/buy.jpg"><h3>Buy Laptops</h3><p>Refurbished Laptops at Best Price<br>HP, Dell, Lenovo, ASUS &amp; More</p><button onclick="openFlow('buy')">View Laptops　→</button></article><article><img src="assets/sell.jpg"><h3>Sell Your Laptop</h3><p>Get the Best Value for Your Old Laptop<br>Quick &amp; Hassle-Free Process</p><button class="green" onclick="openFlow('sell')">Sell Laptop　→</button></article><article><img src="assets/repair.jpg"><h3>Laptop Repair</h3><p>Professional Chip Level Repair<br>All Brand Laptops &amp; MacBooks</p><button class="red" onclick="openFlow('repair')">Book Repair　→</button></article><article><img src="assets/upgrade.jpg"><h3>Laptop &amp; CPU Upgrade</h3><p>RAM, SSD, CPU &amp; Performance Upgrade<br>Make Your Laptop Faster</p><button class="purple" onclick="openFlow('upgrade')">View Upgrade　→</button></article></section>
-<section class="cards smallcards"><article><img src="assets/business.jpg"><h3>Business Laptops</h3><p>Dell, HP, Lenovo ThinkPad<br>Premium Refurbished Collection</p><button onclick="openFlow('buy')">View Collection　→</button></article><article><img src="assets/windows.jpg"><h3>Windows Laptops</h3><p>Wide Range of Laptops for Work,<br>Study &amp; Home Use</p><button onclick="openFlow('buy')">View Windows Laptops　→</button></article><article><img src="assets/macbook.jpg"><h3>MacBook</h3><p>MacBook Air &amp; MacBook Pro<br>Refurbished &amp; Service</p><button class="dark" onclick="openFlow('repair')">View MacBooks　→</button></article><article><img src="assets/adapters.jpg"><h3>Adapters &amp; Chargers</h3><p>Laptop Adapters for Dell, HP, Lenovo,<br>ASUS, Acer, Apple &amp; More</p><button class="dark" onclick="openFlow('adapter')">View Adapters　→</button></article></section>
-<section class="features"><div>⚙️ <b>Original &amp; Compatible Parts</b><small>Quality checked products</small></div><div>🚚 <b>Fast Service</b><small>Quick turnaround time</small></div><div>🛡️ <b>Trusted Service</b><small>100% customer satisfaction</small></div><div>📍 <b>Bangalore Service</b><small>Benson Town, Bangalore 560046</small></div></section>
-</main><div class="modal" id="modal"><div class="modalbox"><button class="close" onclick="closeFlow()">×</button><div id="flow"></div></div></div>
-<script src="script.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>LapXpert Pro | Laptop Repair, Buy & Sell | Bangalore</title>
+<meta name="description" content="LapXpert Pro provides laptop repair, refurbished laptop sales, laptop upgrades, MacBook service and accessories in Bangalore.">
+<meta name="theme-color" content="#082f4d">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="#home" aria-label="LapXpert Pro home">
+    <img src="logo.png" alt="LapXpert Pro Laptop Solutions">
+  </a>
+  <nav class="nav" aria-label="Main navigation">
+    <a href="#home">Home</a><a href="#laptops">Laptops</a><a href="#macbook">MacBook</a>
+    <a href="#monitors">Monitors</a><a href="#desktop">Desktop / CPU</a><a href="#adapters">Adapters</a>
+    <a href="#repair">Repair</a><a href="#contact">Contact</a>
+  </nav>
+  <div class="header-contact">
+    <span>📍 Benson Town<br>Bangalore 560046</span>
+    <a class="wa" href="https://wa.me/919845885250?text=Hi%20LapXpert%20Pro,%20I%20need%20laptop%20service." target="_blank" rel="noopener">💬 9845885250</a>
+  </div>
+</header>
+
+<main id="home">
+<section class="hero">
+  <div class="hero-copy">
+    <h1>Buy • Sell • Repair<br>Laptops &amp; <span>MacBooks</span></h1>
+    <p>Refurbished Laptops &nbsp;|&nbsp; Apple MacBook<br>Repairs &nbsp;|&nbsp; Upgrades &nbsp;|&nbsp; Accessories</p>
+    <div class="badges">
+      <div><strong>🚚 PAN INDIA</strong><small>Delivery by DTDC</small></div>
+      <div><strong>⌂ HOME SERVICE</strong><small>in Bangalore</small></div>
+      <div><strong>◇ QUALITY CHECKED</strong><small>Refurbished Products</small></div>
+    </div>
+  </div>
+
+  <div class="hero-products">
+    <img src="hero-products.jpg" alt="Laptops available from LapXpert Pro" onerror="this.closest('.hero-products').classList.add('image-fallback');this.remove()">
+  </div>
+
+  <aside class="service-panel" aria-label="Quick service booking">
+    <h2>🛠️ Book a Service</h2>
+    <label for="quickBrand">1. Select Brand <em>*</em></label>
+    <select id="quickBrand"></select>
+    <label for="quickModel">2. Select Model <em>*</em></label>
+    <input id="quickModel" list="quickModelList" placeholder="Search model (e.g. A2141)" autocomplete="off">
+    <datalist id="quickModelList"></datalist>
+    <div class="quick-models" id="quickModelButtons"></div>
+    <button class="other-btn" id="quickOther">Other Model (Enter Manually)</button>
+    <button class="book-btn" id="quickBook">Continue to Problem →</button>
+  </aside>
+</section>
+
+<section class="brand-strip" id="laptops">
+  <div class="brand-title">BRANDS WE SERVICE</div>
+  <div class="brand-list">
+    <span>Apple</span><span>Dell</span><span>HP</span><span>Lenovo</span><span>ASUS</span><span>Acer</span>
+    <span>MSI</span><span>Toshiba</span><span>Samsung</span><span>Microsoft</span><span>Fujitsu</span><span>LG</span><span>Huawei</span><span>Xiaomi</span>
+  </div>
+</section>
+
+<section class="cards-section">
+  <div class="cards main-cards">
+    <article class="card"><img src="buy.jpg" alt="Buy refurbished laptops"><h3>Buy Laptops</h3><p>Refurbished Laptops at Best Price<br>HP, Dell, Lenovo, ASUS &amp; More</p><button data-flow="buy">View Laptops →</button></article>
+    <article class="card"><img src="sell.jpg" alt="Sell your old laptop"><h3>Sell Your Laptop</h3><p>Get the Best Value for Your Old Laptop<br>Quick &amp; Hassle-Free Process</p><button class="green" data-flow="sell">Sell Laptop →</button></article>
+    <article class="card" id="repair"><img src="repair.jpg" alt="Laptop repair service"><h3>Laptop Repair</h3><p>Professional Chip Level Repair<br>All Brand Laptops &amp; MacBooks</p><button class="red" data-flow="repair">Book Repair →</button></article>
+    <article class="card"><img src="upgrade.jpg" alt="Laptop and desktop upgrades"><h3>Laptop &amp; CPU Upgrade</h3><p>RAM, SSD, CPU &amp; Performance Upgrade<br>Make Your Laptop Faster</p><button class="purple" data-flow="upgrade">View Upgrade →</button></article>
+  </div>
+
+  <div class="cards small-cards">
+    <article class="card" id="business"><img src="business.jpg" alt="Business laptops"><h3>Business Laptops</h3><p>Dell, HP, Lenovo ThinkPad<br>Premium Refurbished Collection</p><button data-flow="buy">View Collection →</button></article>
+    <article class="card"><img src="windows.jpg" alt="Windows laptops"><h3>Windows Laptops</h3><p>Wide Range of Laptops for Work,<br>Study &amp; Home Use</p><button data-flow="buy">View Windows Laptops →</button></article>
+    <article class="card" id="macbook"><img src="macbook.jpg" alt="MacBook"><h3>MacBook</h3><p>MacBook Air &amp; MacBook Pro<br>Refurbished &amp; Service</p><button class="dark" data-flow="apple">View MacBooks →</button></article>
+    <article class="card" id="adapters"><img src="adapters.jpg" alt="Laptop adapters and chargers"><h3>Adapters &amp; Chargers</h3><p>Laptop Adapters for Dell, HP, Lenovo,<br>ASUS, Acer, Apple &amp; More</p><button class="dark" data-flow="adapter">View Adapters →</button></article>
+  </div>
+</section>
+
+<section class="features" id="monitors">
+  <div>⚙️ <b>Original &amp; Compatible Parts</b><small>Quality checked products</small></div>
+  <div>🚚 <b>Fast Service</b><small>Quick turnaround time</small></div>
+  <div>🛡️ <b>Trusted Service</b><small>100% customer satisfaction</small></div>
+  <div id="desktop">📍 <b>Bangalore Service</b><small>Benson Town, Bangalore 560046</small></div>
+</section>
+
+<section class="contact" id="contact">
+  <div><h2>Need laptop help?</h2><p>Repair, buy, sell, upgrade or home service. Send your requirement directly on WhatsApp.</p></div>
+  <div class="contact-actions">
+    <a href="tel:+919845885250">📞 9845885250</a>
+    <a class="wa" href="https://wa.me/919845885250?text=Hi%20LapXpert%20Pro,%20I%20need%20laptop%20service." target="_blank" rel="noopener">💬 WhatsApp</a>
+  </div>
+</section>
+</main>
+
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="modal-box">
+    <button class="close" id="closeModal" aria-label="Close">×</button>
+    <div id="flow"></div>
+  </div>
+</div>
+
+<footer><img src="logo.png" alt="LapXpert Pro"><span>© 2026 LapXpert Pro • Laptop Solutions • Bangalore</span></footer>
+<script src="script.js"></script>
+</body>
+</html>
