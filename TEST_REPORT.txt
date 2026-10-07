@@ -1,0 +1,23 @@
+PASS index.html
+PASS styles.css
+PASS script.js
+PASS admin.html
+PASS privacy.html
+PASS terms.html
+PASS warranty.html
+PASS robots.txt
+PASS sitemap.xml
+PASS assets/logo.png
+PASS Phone
+PASS WhatsApp
+PASS Google Maps
+PASS Booking form
+PASS Sell form
+PASS Mobile menu
+PASS Repair tracking
+PASS Admin link
+PASS Logo
+PASS Monitor section
+PASS Desktop section
+
+Overall: PASS
