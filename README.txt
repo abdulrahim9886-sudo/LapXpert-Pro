@@ -13,4 +13,4 @@ Design:
 - Phone: 9845885250
 - No SK Garden
 
-Note: Product photography uses real hosted image assets. Apple MacBook/iMac imagery points to Apple-hosted product assets; other product imagery uses real photography hosted by Unsplash.
+Note: Product photography uses real hosted image assets. Apple MacBook imagery points to Apple-hosted product assets; other product imagery uses real photography hosted by Unsplash.
