@@ -1,19 +1,24 @@
-LAPXPERT PRO - FIXED WEBSITE FILES
+LapXpert Pro Repair Wizard
+==========================
 
-Upload these five files directly into the ROOT of your GitHub repository:
-- index.html
-- styles.css
-- script.js
-- logo.jpg
-- README.txt (optional)
+Contents
+- index.html: standalone, responsive six-step repair/enquiry wizard.
 
-IMPORTANT FILE MATCHES:
-- index.html loads styles.css (plural) and script.js.
-- index.html loads logo.jpg.
-- Keep all five files together in the repository root. Do not put them inside another folder.
+Quick preview
+1. Extract this ZIP.
+2. Open index.html in a browser.
 
-Your current contact number in this version is 9845885250.
-Your address is Benson Town, Bangalore 560046.
+Add to your existing website
+1. Copy the wizard HTML block (the <div id="lapx-repair-wizard">...</div>) into the page where you want the booking form.
+2. Copy the <style>...</style> block into the page head or your CSS file.
+3. Copy the <script>...</script> block just before </body>.
+4. Keep the CSS scoped to #lapx-repair-wizard so it does not overwrite your website styles.
 
-After uploading, commit to the main branch. GitHub Pages should be configured to deploy from main / (root).
-If a custom domain is already connected, keep its existing DNS and Pages settings unchanged.
+WhatsApp
+- The booking number is configured as 91 98458 85250.
+- Change `businessPhone` in the script if your business WhatsApp number changes.
+- The form opens WhatsApp with a pre-filled enquiry. It does not automatically create or confirm an appointment.
+
+Notes
+- This is the wizard-only package, not a replacement for your complete LapXpert Pro website.
+- The model list is editable in the `models` object in the JavaScript.
