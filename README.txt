@@ -1,22 +1,19 @@
-LapXpert Pro free static website
+LAPXPERT PRO - FIXED WEBSITE FILES
 
-Files:
+Upload these five files directly into the ROOT of your GitHub repository:
 - index.html
 - styles.css
 - script.js
-- assets/logo.jpg
+- logo.jpg
+- README.txt (optional)
 
-To publish free:
-1. Extract this ZIP.
-2. Upload all files and the assets folder to your GitHub repository root.
-3. Commit changes.
-4. In GitHub: Settings > Pages > Deploy from branch > main > /(root).
-5. Your GitHub Pages website will update.
+IMPORTANT FILE MATCHES:
+- index.html loads styles.css (plural) and script.js.
+- index.html loads logo.jpg.
+- Keep all five files together in the repository root. Do not put them inside another folder.
 
-Business contact included from the supplied screenshots: 9845885250.
-Address included from the supplied screenshots: Benson Town, Bangalore 560046.
+Your current contact number in this version is 9845885250.
+Your address is Benson Town, Bangalore 560046.
 
-Notes:
-- Service photography loads from Unsplash URLs and therefore needs internet access.
-- Google review button opens a Google search for LapXpert Pro. Replace with your exact Google review URL when available.
-- The website does not invent ratings or customer testimonials.
+After uploading, commit to the main branch. GitHub Pages should be configured to deploy from main / (root).
+If a custom domain is already connected, keep its existing DNS and Pages settings unchanged.
