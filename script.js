@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded",()=>{
    const lines=[`Hello LapXpert Pro, my enquiry is for: ${kind}.`];
    new FormData(form).forEach((v,k)=>{if(String(v).trim())lines.push(`${k}: ${v}`);});
    lines.push("Please guide me with availability and next steps.");
-   window.open("https://wa.me/919845885250?text="+encodeURIComponent(lines.join("\\n")),"_blank","noopener,noreferrer");
+   window.open("https://wa.me/919845885250?text="+encodeURIComponent(lines.join("\n")),"_blank","noopener,noreferrer");
  });
  const year=document.getElementById("year");if(year)year.textContent=new Date().getFullYear();
 });
